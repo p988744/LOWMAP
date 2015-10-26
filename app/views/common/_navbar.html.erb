@@ -8,11 +8,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand page-scroll" href="/">午餐計畫</a>
+        <a class="navbar-brand page-scroll" href="/"><span class="glyphicon glyphicon-grain" aria-hidden="true"></span>午餐計畫</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to("開發日誌", blogs_path) %></li>
+        <%= render 'common/page_links' %>
         <% if !current_user %>
         <li><%= link_to("註冊", new_user_registration_path) %></li>
         <li><%= link_to("登入", new_user_session_path) %></li>

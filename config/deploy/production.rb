@@ -4,9 +4,9 @@
 # You can define all roles on a single server, or split them:
 
 # 你設定的 deploy 用帳號 & ip
-role :app, %w{apps@10.12.1.174}
-role :web, %w{apps@10.12.1.174}
-role :db,  %w{apps@10.12.1.174}
+role :app, %w{apps@10.12.13.190}
+role :web, %w{apps@10.12.13.190}
+role :db,  %w{apps@10.12.13.190}
 
 # server 'example.com', user: 'deploy', roles: %w{app db web}, my_property: :my_value
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value

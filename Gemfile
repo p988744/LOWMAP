@@ -31,6 +31,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise'
 
+gem "mysql2", '~> 0.3.13'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -60,5 +62,5 @@ group :development do
 end
 
 group :production do
-  gem "mysql2"
+  gem "mysql2", '~> 0.3.13'
 end

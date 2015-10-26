@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :application, 'rails101s'
-set :repo_url, 'git@github.com:p988744/rails101s.git'
+set :application, 'lunch'
+set :repo_url, 'git@github.com:p988744/LOWMAP.git'
 
 
 # rbenv 的設定
@@ -17,7 +17,7 @@ set :rbenv_roles, :all
 
 # deploy 的資料夾位置 (prodution)
 
-set :deploy_to, "/home/apps/rails101s"
+set :deploy_to, "/home/apps/lunch"
 
 set :log_level, :debug
 
